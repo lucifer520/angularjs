@@ -1,9 +1,6 @@
-/*var bookStoreApp = angular.module('bookStoreApp', [
+var bookStoreApp = angular.module('bookStoreApp', [
     'ngRoute', 'ngAnimate', 'bookStoreCtrls', 'bookStoreFilters',
     'bookStoreServices', 'bookStoreDirectives'
-]);*/
-var bookStoreApp = angular.module('bookStoreApp', [
-    'ngRoute', 'ngAnimate', 'bookStoreCtrls'
 ]);
 
 bookStoreApp.config(function($routeProvider) {
